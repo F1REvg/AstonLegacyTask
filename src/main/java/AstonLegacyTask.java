@@ -26,7 +26,7 @@ public class AstonLegacyTask {
 
         fibonacciNumbers(8);
 
-        fibonacciNumbersZeroCase(8);
+        fibonacciNumbersOneOneCase(8);
 
         fibonacciNumbersStream(8);
 
@@ -69,8 +69,8 @@ public class AstonLegacyTask {
             System.out.println(j);
         }
     }
-    //Вычисление числа Фибоначчи (случай 0,0)
-    static void fibonacciNumbersZeroCase(int x) {
+    //Вычисление числа Фибоначчи (случай 1,1)
+    static void fibonacciNumbersOneOneCase(int x) {
         int [] arr = new int[x];
         arr[0] = 1;
         arr[1] = 1;
